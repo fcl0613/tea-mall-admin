@@ -24,7 +24,7 @@
       <el-container>
         <el-aside width="200px">
           <el-menu
-            background-color="#545c64"
+            background-color="#393d49"
             text-color="#fff"
             active-text-color="#409eff"
             unique-opened
@@ -84,12 +84,12 @@ export default {
           ]
         },
         {
-          id: '1',
+          id: '4',
           menuName: '用户管理',
           icon: 'el-icon-user-solid',
           children: [
             {
-              id: '1-1',
+              id: '4-1',
               menuName: '用户列表',
               icon: 'el-icon-user',
               path: '/userList',
@@ -157,7 +157,7 @@ export default {
       this.activeMenuItem = path
     },
     toDashboardPage() {
-      this.$router.push('/dashbord')
+      this.$router.push('/dashboard')
     },
     logout() {
       console.log('sssss')
@@ -174,7 +174,7 @@ export default {
   .main {
     height: 100%;
     .el-header {
-      background-color: rgb(30, 32, 34);
+      background-color: #23262e;
     }
     .header {
       display: flex;
@@ -202,7 +202,7 @@ export default {
   }
 }
 .el-aside {
-  background-color: #545c64;
+  background-color: #393d49;
   .el-menu {
     border-right: none;
   }
