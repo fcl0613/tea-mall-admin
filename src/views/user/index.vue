@@ -178,9 +178,11 @@ export default {
     },
     handleSizeChange(val) {
       this.pageSize = val
+      this.getUserList()
     },
     handleCurrentChange(val) {
       this.pageNum = val
+      this.getUserList()
     },
     createUser() {
       userApi.create(this.userDTO).then((res) => {

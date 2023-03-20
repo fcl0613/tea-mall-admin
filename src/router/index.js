@@ -6,6 +6,8 @@ import { getToken } from '@/utils/token'
 import dashboard from '@/views/dashboard'
 import category from '@/views/category'
 import user from '@/views/user'
+import apply from '@/views/store/apply'
+import store from '@/views/store'
 
 
 Vue.use(VueRouter)
@@ -36,6 +38,14 @@ const router = new VueRouter({
         {
           path: '/userList',
           component: user
+        },
+        {
+          path: '/storeApplyList',
+          component: apply
+        },
+        {
+          path: '/storeList',
+          component: store
         }
       ]
     }

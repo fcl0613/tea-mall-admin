@@ -84,12 +84,12 @@ export default {
           ]
         },
         {
-          id: '4',
+          id: '2',
           menuName: '用户管理',
           icon: 'el-icon-user-solid',
           children: [
             {
-              id: '4-1',
+              id: '2-1',
               menuName: '用户列表',
               icon: 'el-icon-user',
               path: '/userList',
@@ -97,25 +97,31 @@ export default {
           ],
         },
         {
-          id: '2',
-          menuName: '门店管理',
+          id: '3',
+          menuName: '店铺管理',
           icon: 'el-icon-s-shop',
           children: [
             {
-              id: '2-1',
-              menuName: '门店列表',
+              id: '3-1',
+              menuName: '店铺申请列表',
+              icon: 'el-icon-house',
+              path: '/storeApplyList'
+            },
+            {
+              id: '3-2',
+              menuName: '店铺列表',
               icon: 'el-icon-house',
               path: '/storeList'
             }
           ]
         },
         {
-          id: '3',
+          id: '4',
           menuName: '店家管理',
           icon: 'el-icon-user-solid',
           children: [
             {
-              id: '3-1',
+              id: '4-1',
               menuName: '店家列表',
               icon: 'el-icon-user',
               path: '/ownerList'
