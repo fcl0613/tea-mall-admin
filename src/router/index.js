@@ -5,6 +5,7 @@ import home from '@/views/home'
 import { getToken } from '@/utils/token'
 import dashboard from '@/views/dashboard'
 import category from '@/views/category'
+import user from '@/views/user'
 
 
 Vue.use(VueRouter)
@@ -31,6 +32,10 @@ const router = new VueRouter({
         {
           path: '/categoryList',
           component: category
+        },
+        {
+          path: '/userList',
+          component: user
         }
       ]
     }
