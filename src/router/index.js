@@ -8,6 +8,7 @@ import category from '@/views/category'
 import user from '@/views/user'
 import apply from '@/views/store/apply'
 import store from '@/views/store'
+import banner from '@/views/banner'
 
 
 Vue.use(VueRouter)
@@ -46,6 +47,10 @@ const router = new VueRouter({
         {
           path: '/storeList',
           component: store
+        },
+        {
+          path: '/bannerList',
+          component: banner
         }
       ]
     }

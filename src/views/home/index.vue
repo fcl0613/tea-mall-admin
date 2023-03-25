@@ -117,14 +117,14 @@ export default {
         },
         {
           id: '4',
-          menuName: '店家管理',
+          menuName: '轮播图管理',
           icon: 'el-icon-user-solid',
           children: [
             {
               id: '4-1',
-              menuName: '店家列表',
+              menuName: '轮播图列表',
               icon: 'el-icon-user',
-              path: '/ownerList'
+              path: '/bannerList'
             }
           ]
         },

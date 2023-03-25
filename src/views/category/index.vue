@@ -1,7 +1,5 @@
 <template>
   <div class="container">
-    <!-- <my-breadcrumb p1="分类管理" p2="分类列表"></my-breadcrumb> -->
-
     <div class="category-list-area">
       <el-card>
         <div class="search-area">
