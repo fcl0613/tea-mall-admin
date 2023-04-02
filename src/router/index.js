@@ -9,6 +9,8 @@ import user from '@/views/user'
 import apply from '@/views/store/apply'
 import store from '@/views/store'
 import banner from '@/views/banner'
+import orderList from '@/views/order'
+import orderDetail from '@/views/order/detail'
 
 
 Vue.use(VueRouter)
@@ -51,6 +53,14 @@ const router = new VueRouter({
         {
           path: '/bannerList',
           component: banner
+        },
+        {
+          path: '/orderList',
+          component: orderList
+        },
+        {
+          path: '/orderDetail',
+          component: orderDetail
         }
       ]
     }
